@@ -1,0 +1,10 @@
+{
+  "name": "ts-lib",
+  "version": "1.0.0",
+  "description": "A utils library written in typescript",
+  "main": "index.js",
+  "repository": "https://github.com/lindellcarternyc/ts-lib.git",
+  "author": "lindellcarternyc <lindellcarternyc@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
