@@ -6,5 +6,8 @@
   "repository": "https://github.com/lindellcarternyc/ts-lib.git",
   "author": "lindellcarternyc <lindellcarternyc@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
