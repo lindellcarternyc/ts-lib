@@ -1,3 +1,4 @@
+import LinkedList from '../linked-list'
 import map from './map'
 
 describe('map', () => {
@@ -96,5 +97,11 @@ describe('map', () => {
         id: '2'
       }
     })
+  })
+
+  it('creates a function that maps over a linked list', () => {
+    const list1 = LinkedList.of(1, 2, 3, 4, 5)
+    const res = map((item: number, index: number) => (item + index).toString())(list1)
+    expect(res).toEqual(LinkedList.of('1', '3', '5', '7', '9'))
   })
 })
