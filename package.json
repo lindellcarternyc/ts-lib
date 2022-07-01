@@ -10,9 +10,11 @@
   "scripts": {
     "clean": "rimraf ./dist",
     "build": "yarn clean && tsc",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "jest"
   },
   "devDependencies": {
+    "@types/jest": "^28.1.4",
     "@typescript-eslint/eslint-plugin": "^5.30.0",
     "@typescript-eslint/parser": "^5.30.0",
     "eslint": "^8.18.0",
@@ -20,8 +22,10 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^28.1.2",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
+    "ts-jest": "^28.0.5",
     "typescript": "^4.7.4"
   }
 }
