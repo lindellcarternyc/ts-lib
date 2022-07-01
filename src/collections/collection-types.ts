@@ -22,8 +22,8 @@ export type Iter<T, U = void> =
   | SequenceIter<T, U>
   | RecordIter<T, U>
 
-export type SequenceMapper<T, U> = SequenceIter<T, U> // (item: T, index: Constrain<Index, number>, collection: T[]) => U
-export type RecordMapper<T, U> = RecordIter<T, U> // (item: T, index: Constrain<Index, string>, collection: Record<string, T>) => U
+export type SequenceMapper<T, U> = SequenceIter<T, U>
+export type RecordMapper<T, U> = RecordIter<T, U>
 export type Mapper<T, U> =
   | SequenceMapper<T, U>
   | RecordMapper<T, U>
