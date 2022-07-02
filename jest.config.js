@@ -4,5 +4,8 @@ module.exports = {
   testEnvironment: 'node',
   testPathIgnorePatterns: [
     './dist'
-  ]
+  ],
+  moduleNameMapper: {
+    '^@/(.*)$': '<rootDir>/src/$1'
+  }
 };
