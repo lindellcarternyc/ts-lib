@@ -1,5 +1,6 @@
-import { isNull } from '../../types/maybe'
-import { SequenceIter, Collection, Iter, RecordIter } from '../collection-types'
+import { isNull } from '@/types/maybe'
+import { SequenceIter, Collection, Iter, RecordIter } from '@/types/collection'
+
 import LinkedList from '../linked-list'
 import { MaybeNode } from '../linked-list/linked-list-node'
 
