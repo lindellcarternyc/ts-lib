@@ -1,4 +1,5 @@
-import { isNull } from '../../types/maybe'
+import { isNull } from '@/types/maybe'
+
 import LListNode, { MaybeNode } from './linked-list-node'
 
 class LinkedList<T> {

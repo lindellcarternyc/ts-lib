@@ -1,4 +1,4 @@
-import { Maybe } from '../../types'
+import { Maybe } from '@/types'
 
 export type MaybeNode<T> = Maybe<LListNode<T>>
 
