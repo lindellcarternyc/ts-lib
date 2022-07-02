@@ -1,4 +1,4 @@
-import LinkedList from './linked-list'
+import LinkedList from '@/collections/linked-list'
 
 export type Sequence<T> =
   | T[]
