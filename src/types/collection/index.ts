@@ -1,4 +1,4 @@
-export { 
+export type { 
   Collection,
   Index,
   Iter,
@@ -7,4 +7,10 @@ export {
   RecordMapper,
   SequenceIter,
   SequenceMapper
+} from './collection'
+
+export {
+  isArray,
+  isLinkedList,
+  isRecord
 } from './collection'

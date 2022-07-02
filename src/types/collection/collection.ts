@@ -27,3 +27,15 @@ export type RecordMapper<T, U> = RecordIter<T, U>
 export type Mapper<T, U> =
   | SequenceMapper<T, U>
   | RecordMapper<T, U>
+
+export const isArray = <T>(collection: Collection<T>): collection is T[] => {
+  return Array.isArray(collection)
+}
+
+export const isLinkedList = <T>(collection: Collection<T>): collection is LinkedList<T> => {
+  return collection instanceof LinkedList
+}
+
+export const isRecord = <T>(collection: Collection<T>): collection is Record<string, T> => {
+  return !isArray(collection) && !isLinkedList(collection)
+}
