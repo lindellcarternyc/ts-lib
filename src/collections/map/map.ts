@@ -1,4 +1,4 @@
-import { SequenceMapper, Collection, Mapper, RecordMapper } from '../collection-types'
+import { Collection, Mapper, RecordMapper, SequenceMapper } from '@/types/collection'
 
 import forEach from '../for-each/for-each'
 
